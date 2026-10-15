@@ -5,7 +5,7 @@
 
 <br>
 
-# Mayishat Altab
+# Mayishat Altab Mridu
 
 ### Computer Science Graduate | Machine Learning | Computational Research
 
