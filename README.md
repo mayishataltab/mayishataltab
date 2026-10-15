@@ -1,7 +1,6 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/mayishataltab/mayishataltab/main/Cozy%20Moonlit%20Mountain%20Workspace.png" alt="Espresso Dark Academia — Research Workspace" width="100%">
 
 <br>
 
