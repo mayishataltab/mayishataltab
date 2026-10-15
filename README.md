@@ -1,164 +1,248 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/mayishataltab/mayishataltab/main/Cozy%20Moonlit%20Mountain%20Workspace.png" alt="Mayishat Altab — Dark Academia Workspace" width="100%">
+<img src="https://raw.githubusercontent.com/mayishataltab/mayishataltab/main/Cozy%20Moonlit%20Mountain%20Workspace.png" alt="Espresso Dark Academia — Research Workspace" width="100%">
 
 <br>
 
-# ✦ Hi, I'm Mayishat ✦
+# Mayishat Altab
 
-### CSE Graduate · Machine Learning Enthusiast · Full-Stack Developer · Researcher
+### Computer Science Graduate | Machine Learning | Computational Research
 
-*Turning ideas into meaningful projects, one step at a time.*
-
-<br>
-
-**☕ CODE · LEARN · BUILD · GROW 🌙**
+*Building intelligent systems and exploring data-driven approaches to complex problems.*
 
 <br>
 
-<a href="https://github.com/mayishataltab">
-  <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Work-3A261D?style=for-the-badge&logo=github&logoColor=D6A16C" alt="GitHub profile">
-</a>
+[![Research](https://img.shields.io/badge/Focus-Computational%20Research-5B3828?style=flat-square&labelColor=21140F)](#research-interests)
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Deep%20Learning-B77943?style=flat-square&labelColor=21140F)](#technical-toolkit)
+[![Open to Research](https://img.shields.io/badge/Goal-PhD%20Research-CB9A62?style=flat-square&labelColor=21140F)](#academic-goals)
+
+<br>
+
+**RESEARCH · COMPUTE · INVESTIGATE · DISCOVER**
 
 </div>
 
 ---
 
-## ☕ About Me
+## About Me
 
-I'm a Computer Science and Engineering graduate interested in building practical software, exploring machine learning, and solving meaningful problems through technology.
+I am a Computer Science and Engineering graduate from Daffodil International University, Bangladesh, with interests in machine learning, deep learning, and computational research.
 
-- 🎓 Computer Science and Engineering graduate.
-- 🤖 Interested in machine learning, deep learning, and AI applications.
-- 💻 Building full-stack applications and web-based solutions.
-- 🔬 Exploring computational research and data-driven problem-solving.
-- 🧬 Interested in computational genomics and evidence-based gene prioritization.
-- 🌱 Always learning, experimenting, and improving my skills.
+My work explores how computational methods can be applied to problems in healthcare, environmental sound analysis, and genomics. I am particularly interested in developing reproducible machine-learning workflows, evaluating models carefully, and interpreting results within the limitations of the available evidence.
 
-I enjoy working at the intersection of software development, artificial intelligence, and research.
+I am building this portfolio to document my technical work, research development, and preparation for future **PhD research opportunities**.
+
+- 🎓 **Background:** Computer Science and Engineering
+- 🧠 **Core interests:** Machine learning, deep learning, and data-driven modeling
+- 🩺 **Healthcare AI:** Retinal fundus image analysis and glaucoma detection
+- 🧬 **Computational genomics:** Evidence integration and candidate-gene prioritization
+- 🔊 **Audio intelligence:** Urban environmental sound classification
+- 🔬 **Research approach:** Careful evaluation, reproducibility, and evidence-based interpretation
 
 ---
 
-## 🧰 Tech Stack
+## Research Interests
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧬 Computational Genomics
+
+Integrating genetic-association, transcriptomic, tissue-expression, interaction-network, and pathway evidence to prioritize candidate genes for further biological investigation.
+
+</td>
+<td width="50%" valign="top">
+
+### 🩺 Medical AI
+
+Applying deep learning and computer vision to retinal fundus images, with an interest in model evaluation, explainability, and practical screening applications.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔊 Machine Learning for Audio
+
+Investigating audio feature extraction and supervised learning for the classification of urban environmental sounds.
+
+</td>
+<td width="50%" valign="top">
+
+### 🔍 Reliable Machine Learning
+
+Exploring evaluation design, leakage prevention, model comparison, interpretability, and the limitations of computational predictions.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Featured Research & Projects
+
+### 01 · 🧬 Multi-Evidence Gene Prioritization for Type 2 Diabetes
+
+**Computational Genomics · Machine Learning · Evidence Integration**
+
+A genetics-centered computational study investigating whether heterogeneous gene-level evidence can help prioritize candidate genes associated with a defined human pancreatic β-cell type 2 diabetes (T2D) differential-expression phenotype.
+
+**Research components**
+- Integrated genetic-association, regulatory, transcriptomic, tissue-expression, protein–protein interaction, and pathway evidence.
+- Constructed an analytical dataset of **3,868 genes**, comprising 51 positive genes, 1,991 strict controls, and 1,826 unlabeled genes.
+- Used a fixed set of 14 predictors while excluding target-derived GSE221156 measurements from the primary predictor matrix.
+- Evaluated L2-regularized logistic regression using nested grouped five-fold cross-validation, with three inner folds.
+- Examined both discrimination and ranking performance to support candidate prioritization.
+
+**Reported primary evaluation**
+| Metric | Result |
+|---|---:|
+| ROC-AUC | 0.7857 |
+| PR-AUC | 0.0832 |
+| Precision at top 10 | 0.40 |
+| Precision at top 20 | 0.20 |
+| Precision at top 40 | 0.10 |
+| Precision at top 100 | 0.09 |
+
+*Interpretation:* These results concern prioritization against the study's defined phenotype. They do not establish causal genes or experimental validation. Independent evaluation and biological investigation remain necessary.
+
+**Methods:** Python · pandas · scikit-learn · Logistic Regression · Grouped Cross-Validation · Genomic Evidence Integration
+
+<sub>Repository and research materials will be linked here when published.</sub>
+
+---
+
+### 02 · 🩺 GlaucomaDetect — Retinal Fundus Image Analysis
+
+**Deep Learning · Medical Image Analysis · Explainable AI**
+
+A comparative machine-learning and deep-learning project for glaucoma detection from retinal fundus images, with the best-performing model integrated into a web-based prediction application.
+
+**Research and implementation**
+- Evaluated traditional machine-learning models: Support Vector Machine (SVM) and XGBoost.
+- Compared handcrafted image descriptors—Histogram of Oriented Gradients (HOG), Local Binary Patterns (LBP), and color histograms—with automatic deep feature learning.
+- Investigated transfer-learning architectures: EfficientNetB3 and DenseNet121.
+- Applied a two-stage training strategy involving warm-up training and fine-tuning.
+- Used Grad-CAM to investigate model attention and examine potential reliance on image-background regions.
+- Developed **GlaucomaDetect**, a browser-based interface for retinal image prediction.
+
+**Reported DenseNet121 results**
+
+| Metric | Result |
+|---|---:|
+| Accuracy | 91.00% |
+| Precision | 91.55% |
+| Recall | 90.33% |
+| F1-score | 90.94% |
+| AUROC | 0.9638 |
+
+**Methods:** Python · TensorFlow/Keras · scikit-learn · OpenCV · Computer Vision · Grad-CAM · Flask
+
+*Research scope:* The reported results come from the project's evaluated dataset and experimental setup. They should not be interpreted as proof of clinical readiness or performance on every external population.
+
+<sub>Repository, implementation details, and demonstrations will be linked here when published.</sub>
+
+---
+
+### 03 · 🔊 Urban Sound Classification
+
+**Audio Machine Learning · Signal Processing · Neural Networks**
+
+A multi-class audio-classification project using the UrbanSound8K dataset to investigate the classification of urban environmental sounds.
+
+**Technical components**
+- Extracted audio features using Mel-frequency cepstral coefficients (MFCCs).
+- Represented audio using concatenated MFCC means and standard deviations.
+- Developed an artificial neural network (ANN) with tunable architecture and regularization.
+- Evaluated an RBF-kernel Support Vector Machine as a baseline.
+- Used a stratified 70% training, 15% validation, and 15% test split.
+- Applied audio augmentation to training data and reserved the test set for final evaluation.
+- Saved model artifacts and preprocessing components to support future inference.
+
+**Methods:** Python · TensorFlow/Keras · KerasTuner · librosa · scikit-learn · MFCC · Audio Classification
+
+*Evaluation note:* Performance metrics will be added after the final results have been verified and documented.
+
+<sub>Repository, results, and reproducibility instructions will be linked here when published.</sub>
+
+---
+
+## Technical Toolkit
 
 <div align="center">
 
-### Artificial Intelligence & Data Science
+### Machine Learning & Data Science
 
-<img src="https://img.shields.io/badge/Python-281B16?style=for-the-badge&logo=python&logoColor=D6A16C" alt="Python">
-<img src="https://img.shields.io/badge/TensorFlow-281B16?style=for-the-badge&logo=tensorflow&logoColor=D6A16C" alt="TensorFlow">
-<img src="https://img.shields.io/badge/scikit--learn-281B16?style=for-the-badge&logo=scikitlearn&logoColor=D6A16C" alt="scikit-learn">
-<img src="https://img.shields.io/badge/OpenCV-281B16?style=for-the-badge&logo=opencv&logoColor=D6A16C" alt="OpenCV">
-<img src="https://img.shields.io/badge/NumPy-281B16?style=for-the-badge&logo=numpy&logoColor=D6A16C" alt="NumPy">
+![Python](https://img.shields.io/badge/Python-241710?style=for-the-badge&logo=python&logoColor=E2B77B)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-241710?style=for-the-badge&logo=tensorflow&logoColor=E2B77B)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-241710?style=for-the-badge&logo=scikitlearn&logoColor=E2B77B)
+![XGBoost](https://img.shields.io/badge/XGBoost-241710?style=for-the-badge&logoColor=E2B77B)
+![NumPy](https://img.shields.io/badge/NumPy-241710?style=for-the-badge&logo=numpy&logoColor=E2B77B)
+![pandas](https://img.shields.io/badge/pandas-241710?style=for-the-badge&logo=pandas&logoColor=E2B77B)
 
-### Web Development
+### Computer Vision & Audio
 
-<img src="https://img.shields.io/badge/React-281B16?style=for-the-badge&logo=react&logoColor=D6A16C" alt="React">
-<img src="https://img.shields.io/badge/Node.js-281B16?style=for-the-badge&logo=nodedotjs&logoColor=D6A16C" alt="Node.js">
-<img src="https://img.shields.io/badge/Flask-281B16?style=for-the-badge&logo=flask&logoColor=D6A16C" alt="Flask">
-<img src="https://img.shields.io/badge/JavaScript-281B16?style=for-the-badge&logo=javascript&logoColor=D6A16C" alt="JavaScript">
+![OpenCV](https://img.shields.io/badge/OpenCV-241710?style=for-the-badge&logo=opencv&logoColor=E2B77B)
+![Keras](https://img.shields.io/badge/Keras-241710?style=for-the-badge&logo=keras&logoColor=E2B77B)
+![Flask](https://img.shields.io/badge/Flask-241710?style=for-the-badge&logo=flask&logoColor=E2B77B)
 
-### Development Tools
+### Software Development & Tools
 
-<img src="https://img.shields.io/badge/Git-281B16?style=for-the-badge&logo=git&logoColor=D6A16C" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-281B16?style=for-the-badge&logo=github&logoColor=D6A16C" alt="GitHub">
+![React](https://img.shields.io/badge/React-241710?style=for-the-badge&logo=react&logoColor=E2B77B)
+![Node.js](https://img.shields.io/badge/Node.js-241710?style=for-the-badge&logo=nodedotjs&logoColor=E2B77B)
+![JavaScript](https://img.shields.io/badge/JavaScript-241710?style=for-the-badge&logo=javascript&logoColor=E2B77B)
+![Git](https://img.shields.io/badge/Git-241710?style=for-the-badge&logo=git&logoColor=E2B77B)
+![GitHub](https://img.shields.io/badge/GitHub-241710?style=for-the-badge&logo=github&logoColor=E2B77B)
 
 </div>
 
 ---
 
-## 🌙 Featured Projects
+## Research Practices
 
-### 🩺 GlaucomaDetect
+I aim to make my computational work understandable and reproducible through:
 
-**Deep Learning · Healthcare AI**
-
-A deep-learning application for detecting glaucoma from retinal fundus images, integrated with a web-based prediction interface.
-
-- **Domain:** Medical image analysis and healthcare AI
-- **Core focus:** Deep learning and retinal fundus image classification
-- **Interface:** Web-based prediction application
-
-*Repository link coming soon.*
+- **Transparent evaluation:** reporting relevant metrics rather than relying on a single score.
+- **Leakage-aware workflows:** separating training, validation, and test data appropriately.
+- **Evidence-based claims:** distinguishing measured results from interpretation and future possibilities.
+- **Model interpretability:** examining model behavior where suitable methods are available.
+- **Documented limitations:** identifying data, evaluation, and generalization constraints.
 
 ---
 
-### 🔊 Urban Sound Classification
+## Academic Goals
 
-**Machine Learning · Audio Processing**
+I am interested in pursuing doctoral research in areas connecting computer science, machine learning, and computational investigation.
 
-A machine-learning project focused on classifying urban environmental sounds into different categories using audio data.
+Potential research directions include:
 
-- **Domain:** Audio classification and machine learning
-- **Core focus:** Audio data analysis and sound-category prediction
+- Machine learning for computational genomics and biological evidence integration.
+- Trustworthy and explainable AI for healthcare applications.
+- Robust evaluation of machine-learning models on complex, heterogeneous data.
+- Computational methods for extracting useful information from images and audio.
 
-*Repository link coming soon.*
-
----
-
-### 🧬 Gene Prioritization
-
-**Machine Learning · Computational Genomics**
-
-A computational research project integrating genetic-association, gene-expression, protein–protein interaction, and pathway evidence to prioritize type 2 diabetes-associated pancreatic β-cell gene candidates.
-
-- **Domain:** Computational genomics and evidence integration
-- **Core focus:** Machine-learning-based gene prioritization
-- **Research objective:** Prioritizing candidate genes using heterogeneous biological evidence
-
-*Research repository coming soon.*
+I welcome opportunities to learn from researchers, contribute to collaborative projects, and develop research questions into rigorous computational studies.
 
 ---
 
-## 📊 GitHub Overview
+## GitHub & Contact
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mayishataltab&show_icons=true&hide_border=true&include_all_commits=true&bg_color=1C120F&title_color=D6A16C&text_color=F2E3D0&icon_color=D6A16C&ring_color=D6A16C" alt="GitHub statistics">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayishataltab&layout=compact&hide_border=true&bg_color=1C120F&title_color=D6A16C&text_color=F2E3D0" alt="Most used programming languages">
+[![GitHub](https://img.shields.io/badge/GitHub-Explore%20My%20Work-5B3828?style=for-the-badge&logo=github&logoColor=F3E5D0)](https://github.com/mayishataltab)
 
 <br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mayishataltab&hide_border=true&background=1C120F&ring=D6A16C&fire=D6A16C&currStreakLabel=D6A16C&sideLabels=F2E3D0&currStreakNum=F2E3D0&sideNums=F2E3D0&dates=B99B7B" alt="GitHub contribution streak">
+*Interested in research collaboration, computational methods, and opportunities to learn.*
 
-</div>
+<br>
 
 ---
 
-## 🌿 Areas of Interest
+*“Curiosity begins the question; careful evidence guides the answer.”*
 
-<div align="center">
-
-| ☕ Area | ✦ Interests |
-|:---|:---|
-| Artificial Intelligence | Machine learning, deep learning, and AI applications |
-| Software Development | Full-stack development and web applications |
-| Computer Vision | Image classification and visual data analysis |
-| Computational Research | Data-driven analysis and evidence integration |
-| Computational Genomics | Genetic evidence and candidate-gene prioritization |
-
-</div>
-
----
-
-## 🌱 A Little Philosophy
-
-<div align="center">
-
-*Code with curiosity. Learn with patience. Build with purpose.*
-
-<br>
-
-<img src="https://img.shields.io/badge/MADE%20WITH-CURIOSITY%20%26%20COFFEE-281B16?style=for-the-badge&labelColor=1C120F&color=3A261D" alt="Made with curiosity and coffee">
-
-<br><br>
-
-**☾ CODE · LEARN · BUILD · GROW ☽**
-
-<br>
-
-<sub>Thanks for visiting my little corner of GitHub. ☕🌙</sub>
+**☾ RESEARCH · COMPUTE · INVESTIGATE · DISCOVER ☽**
 
 </div>
