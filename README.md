@@ -109,7 +109,7 @@ A genetics-centered computational study investigating whether heterogeneous gene
 
 **Methods:** Python · pandas · scikit-learn · Logistic Regression · Grouped Cross-Validation · Genomic Evidence Integration
 
-<sub>Repository and research materials will be linked here when published.</sub>
+https://github.com/mayishataltab/T2D-Gene
 
 ---
 
@@ -141,7 +141,7 @@ A comparative machine-learning and deep-learning project for glaucoma detection 
 
 *Research scope:* The reported results come from the project's evaluated dataset and experimental setup. They should not be interpreted as proof of clinical readiness or performance on every external population.
 
-<sub>Repository, implementation details, and demonstrations will be linked here when published.</sub>
+https://github.com/mayishataltab/Glaucoma-Detection
 
 ---
 
@@ -164,7 +164,7 @@ A multi-class audio-classification project using the UrbanSound8K dataset to inv
 
 *Evaluation note:* Performance metrics will be added after the final results have been verified and documented.
 
-<sub>Repository, results, and reproducibility instructions will be linked here when published.</sub>
+https://github.com/mayishataltab/Urbansound
 
 ---
 
