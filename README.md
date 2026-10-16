@@ -6,7 +6,7 @@
 
 # Mayishat Altab Mridu
 
-### Computer Science Graduate | Machine Learning | Computational Research
+### Computer Science Graduate | Computational Research
 
 *Building intelligent systems and exploring data-driven approaches to complex problems.*
 
