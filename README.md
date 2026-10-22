@@ -1,47 +1,52 @@
-
 <div align="center">
-
 
 <br>
 
 # Mayishat Altab Mridu
 
-### Computer Science Graduate | Computational Research
+### Computer Science Graduate · Computational Research
 
 *Building intelligent systems and exploring data-driven approaches to complex problems.*
 
 <br>
 
-[![Research](https://img.shields.io/badge/Focus-Computational%20Research-5B3828?style=flat-square&labelColor=21140F)](#research-interests)
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Deep%20Learning-B77943?style=flat-square&labelColor=21140F)](#technical-toolkit)
-[![Open to Research](https://img.shields.io/badge/Goal-PhD%20Research-CB9A62?style=flat-square&labelColor=21140F)](#academic-goals)
+[![Focus](https://img.shields.io/badge/Focus-Computational%20Research-5B3828?style=flat-square&labelColor=21140F)](#-research-interests)
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Deep%20Learning-B77943?style=flat-square&labelColor=21140F)](#-technical-toolkit)
+[![Goal](https://img.shields.io/badge/Goal-PhD%20Research-CB9A62?style=flat-square&labelColor=21140F)](#-academic-goals)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--5069--3097-A6CE39?style=flat-square&logo=orcid&logoColor=white&labelColor=21140F)](https://orcid.org/0009-0006-5069-3097)
 
 <br>
 
 **RESEARCH · COMPUTE · INVESTIGATE · DISCOVER**
 
+<br>
+
+[About](#-about-me) · [Research](#-research-interests) · [Projects](#-featured-research--projects) · [Toolkit](#-technical-toolkit) · [Practices](#-research-practices) · [Goals](#-academic-goals) · [Contact](#-contact)
+
 </div>
 
 ---
 
-## About Me
+## 👋 About Me
 
-I am a Computer Science and Engineering graduate from Daffodil International University, Bangladesh, with interests in machine learning, deep learning, and computational research.
+I am a Computer Science and Engineering graduate from **Daffodil International University, Bangladesh**, with interests in machine learning, deep learning and computational research.
 
-My work explores how computational methods can be applied to problems in healthcare, environmental sound analysis, and genomics. I am particularly interested in developing reproducible machine-learning workflows, evaluating models carefully, and interpreting results within the limitations of the available evidence.
+My work applies computational methods to problems in **healthcare**, **genomics** and **environmental sound analysis**. I care most about building reproducible machine-learning workflows, evaluating models carefully, and interpreting results within the limits of the available evidence.
 
-I am building this portfolio to document my technical work, research development, and preparation for future **PhD research opportunities**.
+This portfolio documents my technical work and research development as I prepare for **PhD research opportunities**.
 
-- 🎓 **Background:** Computer Science and Engineering
-- 🧠 **Core interests:** Machine learning, deep learning, and data-driven modeling
-- 🩺 **Healthcare AI:** Retinal fundus image analysis and glaucoma detection
-- 🧬 **Computational genomics:** Evidence integration and candidate-gene prioritization
-- 🔊 **Audio intelligence:** Urban environmental sound classification
-- 🔬 **Research approach:** Careful evaluation, reproducibility, and evidence-based interpretation
+| | |
+|---|---|
+| 🎓 **Background** | Computer Science and Engineering |
+| 🧠 **Core interests** | Machine learning, deep learning and data-driven modeling |
+| 🧬 **Computational genomics** | Evidence integration and candidate-gene prioritization |
+| 🩺 **Healthcare AI** | Retinal fundus image analysis and glaucoma detection |
+| 🔊 **Audio intelligence** | Urban environmental sound classification |
+| 🔬 **Research approach** | Careful evaluation, reproducibility and evidence-based interpretation |
 
 ---
 
-## Research Interests
+## 🔭 Research Interests
 
 <table>
 <tr>
@@ -49,14 +54,14 @@ I am building this portfolio to document my technical work, research development
 
 ### 🧬 Computational Genomics
 
-Integrating genetic-association, transcriptomic, tissue-expression, interaction-network, and pathway evidence to prioritize candidate genes for further biological investigation.
+Integrating genetic-association, transcriptomic, tissue-expression, interaction-network and pathway evidence to prioritize candidate genes, and testing what really drives the ranking.
 
 </td>
 <td width="50%" valign="top">
 
 ### 🩺 Medical AI
 
-Applying deep learning and computer vision to retinal fundus images, with an interest in model evaluation, explainability, and practical screening applications.
+Applying deep learning and computer vision to retinal fundus images, with attention to evaluation, explainability and practical screening use.
 
 </td>
 </tr>
@@ -65,14 +70,14 @@ Applying deep learning and computer vision to retinal fundus images, with an int
 
 ### 🔊 Machine Learning for Audio
 
-Investigating audio feature extraction and supervised learning for the classification of urban environmental sounds.
+Investigating audio feature extraction and supervised learning for classifying urban environmental sounds.
 
 </td>
 <td width="50%" valign="top">
 
 ### 🔍 Reliable Machine Learning
 
-Exploring evaluation design, leakage prevention, model comparison, interpretability, and the limitations of computational predictions.
+Evaluation design, leakage prevention, model comparison, interpretability and an honest account of the limits of computational predictions.
 
 </td>
 </tr>
@@ -80,36 +85,53 @@ Exploring evaluation design, leakage prevention, model comparison, interpretabil
 
 ---
 
-## Featured Research & Projects
+## 📂 Featured Research & Projects
 
 ### 01 · 🧬 Multi-Evidence Gene Prioritization for Type 2 Diabetes
 
 **Computational Genomics · Machine Learning · Evidence Integration**
 
-A genetics-centered computational study investigating whether heterogeneous gene-level evidence can help prioritize candidate genes associated with a defined human pancreatic β-cell type 2 diabetes (T2D) differential-expression phenotype.
+An exploratory study testing whether heterogeneous gene-level evidence can prioritize genes linked to a defined human pancreatic β-cell type 2 diabetes (T2D) differential-expression phenotype. It also measures how much of the ranking signal reflects gene expression level and detectability rather than genetic or network evidence.
 
-**Research components**
-- Integrated genetic-association, regulatory, transcriptomic, tissue-expression, protein–protein interaction, and pathway evidence.
-- Constructed an analytical dataset of **3,868 genes**, comprising 51 positive genes, 1,991 strict controls, and 1,826 unlabeled genes.
-- Used a fixed set of 14 predictors while excluding target-derived GSE221156 measurements from the primary predictor matrix.
-- Evaluated L2-regularized logistic regression using nested grouped five-fold cross-validation, with three inner folds.
-- Examined both discrimination and ranking performance to support candidate prioritization.
+> 📄 *Manuscript:* "An Exploratory Machine-Learning Ranking of Type 2 Diabetes-Associated Pancreatic β-Cell Genes Using Heterogeneous Gene-Level Evidence"
 
-**Reported primary evaluation**
+<details open>
+<summary><b>Research components</b></summary>
+
+<br>
+
+- Integrated genetic-association, islet regulatory, transcriptomic, tissue-expression, protein–protein interaction and pathway evidence.
+- Built an analytical dataset of **3,868 genes**: 51 positive genes, 1,991 strict controls and 1,826 unlabeled genes, with HGNC and Ensembl GRCh38 identifiers.
+- Used a fixed set of **14 predictors** and excluded every measurement from GSE221156, the dataset that defines the labels.
+- Evaluated an **L2-regularized logistic regression (C = 0.1, fixed in advance)** with grouped five-fold cross-validation, ten repeated splits, bootstrap confidence intervals, permutation tests and held-out Precision@K.
+- Benchmarked nine further classifiers on identical folds; gradient boosting was kept as a secondary benchmark.
+- Ran diagnostics to quantify expression and detectability confounding:
+  - feature-family ablation
+  - near-miss and expression-matched negative sets
+  - expression-only models
+
+</details>
+
+**Primary evaluation (held-out predictions)**
+
 | Metric | Result |
 |---|---:|
-| ROC-AUC | 0.7857 |
-| PR-AUC | 0.0832 |
-| Precision at top 10 | 0.40 |
-| Precision at top 20 | 0.20 |
+| ROC-AUC | 0.7848 |
+| PR-AUC | 0.0749 *(prevalence 0.025)* |
+| ROC-AUC, ten repeated splits | 0.771 ± 0.017 |
+| Precision at top 10 | 0.10 |
+| Precision at top 20 | 0.05 |
 | Precision at top 40 | 0.10 |
 | Precision at top 100 | 0.09 |
+| ROC-AUC vs near-miss / expression-matched negatives | 0.586 / 0.574 |
 
-*Interpretation:* These results concern prioritization against the study's defined phenotype. They do not establish causal genes or experimental validation. Independent evaluation and biological investigation remain necessary.
+*Key finding:* The model ranks positives above strict controls better than chance, with a modest two- to four-fold enrichment among the top-ranked genes. Diagnostics show that this signal is driven mainly by gene expression level and detectability. The genetic, network and pathway predictors alone did not discriminate.
+
+*Interpretation:* These results concern prioritization against the study's defined phenotype. They do not identify causal genes or provide experimental validation; independent evaluation and biological investigation remain necessary.
 
 **Methods:** Python · pandas · scikit-learn · Logistic Regression · Grouped Cross-Validation · Genomic Evidence Integration
 
-https://github.com/mayishataltab/T2D-Gene
+🔗 **Code & data:** [github.com/mayishataltab/T2D-Gene](https://github.com/mayishataltab/T2D-Gene)
 
 ---
 
@@ -117,15 +139,24 @@ https://github.com/mayishataltab/T2D-Gene
 
 **Deep Learning · Medical Image Analysis · Explainable AI**
 
-A comparative machine-learning and deep-learning project for glaucoma detection from retinal fundus images, with the best-performing model integrated into a web-based prediction application.
+A comparative machine-learning and deep-learning project for glaucoma detection from retinal fundus images. The best-performing model is integrated into a web-based prediction application.
 
-**Research and implementation**
+<details open>
+<summary><b>Research and implementation</b></summary>
+
+<br>
+
 - Evaluated traditional machine-learning models: Support Vector Machine (SVM) and XGBoost.
-- Compared handcrafted image descriptors—Histogram of Oriented Gradients (HOG), Local Binary Patterns (LBP), and color histograms—with automatic deep feature learning.
+- Compared handcrafted image descriptors with automatic deep feature learning. The descriptors were:
+  - Histogram of Oriented Gradients (HOG)
+  - Local Binary Patterns (LBP)
+  - color histograms
 - Investigated transfer-learning architectures: EfficientNetB3 and DenseNet121.
-- Applied a two-stage training strategy involving warm-up training and fine-tuning.
-- Used Grad-CAM to investigate model attention and examine potential reliance on image-background regions.
+- Applied a two-stage training strategy: warm-up training, then fine-tuning.
+- Used Grad-CAM to inspect model attention and check for reliance on image-background regions.
 - Developed **GlaucomaDetect**, a browser-based interface for retinal image prediction.
+
+</details>
 
 **Reported DenseNet121 results**
 
@@ -137,11 +168,11 @@ A comparative machine-learning and deep-learning project for glaucoma detection 
 | F1-score | 90.94% |
 | AUROC | 0.9638 |
 
+*Research scope:* These results come from the project's evaluated dataset and experimental setup. They are not proof of clinical readiness or of performance on every external population.
+
 **Methods:** Python · TensorFlow/Keras · scikit-learn · OpenCV · Computer Vision · Grad-CAM · Flask
 
-*Research scope:* The reported results come from the project's evaluated dataset and experimental setup. They should not be interpreted as proof of clinical readiness or performance on every external population.
-
-https://github.com/mayishataltab/Glaucoma-Detection
+🔗 **Repository:** [github.com/mayishataltab/Glaucoma-Detection](https://github.com/mayishataltab/Glaucoma-Detection)
 
 ---
 
@@ -149,30 +180,35 @@ https://github.com/mayishataltab/Glaucoma-Detection
 
 **Audio Machine Learning · Signal Processing · Neural Networks**
 
-A multi-class audio-classification project using the UrbanSound8K dataset to investigate the classification of urban environmental sounds.
+A multi-class audio-classification project that uses the UrbanSound8K dataset to classify urban environmental sounds.
 
-**Technical components**
-- Extracted audio features using Mel-frequency cepstral coefficients (MFCCs).
-- Represented audio using concatenated MFCC means and standard deviations.
+<details open>
+<summary><b>Technical components</b></summary>
+
+<br>
+
+- Extracted Mel-frequency cepstral coefficient (MFCC) features and represented each clip by concatenated MFCC means and standard deviations.
 - Developed an artificial neural network (ANN) with tunable architecture and regularization.
 - Evaluated an RBF-kernel Support Vector Machine as a baseline.
-- Used a stratified 70% training, 15% validation, and 15% test split.
-- Applied audio augmentation to training data and reserved the test set for final evaluation.
+- Used a stratified 70% / 15% / 15% training, validation and test split.
+- Applied audio augmentation to the training data only and reserved the test set for final evaluation.
 - Saved model artifacts and preprocessing components to support future inference.
+
+</details>
+
+*Evaluation note:* Performance metrics will be added once the final results have been verified and documented.
 
 **Methods:** Python · TensorFlow/Keras · KerasTuner · librosa · scikit-learn · MFCC · Audio Classification
 
-*Evaluation note:* Performance metrics will be added after the final results have been verified and documented.
-
-https://github.com/mayishataltab/Urbansound
+🔗 **Repository:** [github.com/mayishataltab/Urbansound](https://github.com/mayishataltab/Urbansound)
 
 ---
 
-## Technical Toolkit
+## 🧰 Technical Toolkit
 
 <div align="center">
 
-### Machine Learning & Data Science
+**Machine Learning & Data Science**
 
 ![Python](https://img.shields.io/badge/Python-241710?style=for-the-badge&logo=python&logoColor=E2B77B)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-241710?style=for-the-badge&logo=tensorflow&logoColor=E2B77B)
@@ -181,66 +217,71 @@ https://github.com/mayishataltab/Urbansound
 ![NumPy](https://img.shields.io/badge/NumPy-241710?style=for-the-badge&logo=numpy&logoColor=E2B77B)
 ![pandas](https://img.shields.io/badge/pandas-241710?style=for-the-badge&logo=pandas&logoColor=E2B77B)
 
-### Computer Vision & Audio
+**Computer Vision & Audio**
 
 ![OpenCV](https://img.shields.io/badge/OpenCV-241710?style=for-the-badge&logo=opencv&logoColor=E2B77B)
 ![Keras](https://img.shields.io/badge/Keras-241710?style=for-the-badge&logo=keras&logoColor=E2B77B)
+![librosa](https://img.shields.io/badge/librosa-241710?style=for-the-badge&logoColor=E2B77B)
 ![Flask](https://img.shields.io/badge/Flask-241710?style=for-the-badge&logo=flask&logoColor=E2B77B)
 
-### Software Development & Tools
+**Software Development & Tools**
 
 ![React](https://img.shields.io/badge/React-241710?style=for-the-badge&logo=react&logoColor=E2B77B)
 ![Node.js](https://img.shields.io/badge/Node.js-241710?style=for-the-badge&logo=nodedotjs&logoColor=E2B77B)
 ![JavaScript](https://img.shields.io/badge/JavaScript-241710?style=for-the-badge&logo=javascript&logoColor=E2B77B)
 ![Git](https://img.shields.io/badge/Git-241710?style=for-the-badge&logo=git&logoColor=E2B77B)
 ![GitHub](https://img.shields.io/badge/GitHub-241710?style=for-the-badge&logo=github&logoColor=E2B77B)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-241710?style=for-the-badge&logo=googlecolab&logoColor=E2B77B)
 
 </div>
 
 ---
 
-## Research Practices
+## 🧪 Research Practices
 
-I aim to make my computational work understandable and reproducible through:
+I aim to make my computational work understandable and reproducible:
 
-- **Transparent evaluation:** reporting relevant metrics rather than relying on a single score.
-- **Leakage-aware workflows:** separating training, validation, and test data appropriately.
-- **Evidence-based claims:** distinguishing measured results from interpretation and future possibilities.
-- **Model interpretability:** examining model behavior where suitable methods are available.
-- **Documented limitations:** identifying data, evaluation, and generalization constraints.
+| Practice | What it means in my work |
+|---|---|
+| **Transparent evaluation** | Reporting several relevant metrics, with uncertainty, rather than relying on a single score |
+| **Leakage-aware workflows** | Keeping label-defining data out of the predictors and fitting all preprocessing inside training folds |
+| **Held-out reporting** | Headline results come from data the model has not seen; in-sample values are labelled as apparent |
+| **Testing for confounding** | Running diagnostics that check whether a signal reflects the intended evidence or a shortcut |
+| **Evidence-based claims** | Separating measured results from interpretation and future possibilities |
+| **Documented limitations** | Stating data, evaluation and generalization constraints explicitly |
 
 ---
 
-## Academic Goals
+## 🎯 Academic Goals
 
-I am interested in pursuing doctoral research in areas connecting computer science, machine learning, and computational investigation.
+I plan to pursue doctoral research that connects computer science, machine learning and computational investigation. Directions I am interested in:
 
-Potential research directions include:
-
-- Machine learning for computational genomics and biological evidence integration.
-- Trustworthy and explainable AI for healthcare applications.
-- Robust evaluation of machine-learning models on complex, heterogeneous data.
-- Computational methods for extracting useful information from images and audio.
+- Machine learning for computational genomics and biological evidence integration
+- Trustworthy and explainable AI for healthcare
+- Robust evaluation of machine-learning models on complex, heterogeneous data
+- Computational methods for extracting useful information from images and audio
 
 I welcome opportunities to learn from researchers, contribute to collaborative projects, and develop research questions into rigorous computational studies.
 
 ---
 
-## GitHub & Contact
+## 📬 Contact
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Explore%20My%20Work-5B3828?style=for-the-badge&logo=github&logoColor=F3E5D0)](https://github.com/mayishataltab)
+[![Email](https://img.shields.io/badge/Email-altabmayishat%40gmail.com-5B3828?style=for-the-badge&logo=gmail&logoColor=F3E5D0)](mailto:altabmayishat@gmail.com)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--5069--3097-5B3828?style=for-the-badge&logo=orcid&logoColor=F3E5D0)](https://orcid.org/0009-0006-5069-3097)
 
 <br>
 
-*Interested in research collaboration, computational methods, and opportunities to learn.*
+*Interested in research collaboration, computational methods and opportunities to learn.*
 
 <br>
 
 ---
 
-*“Curiosity begins the question; careful evidence guides the answer.”*
+*"Curiosity begins the question; careful evidence guides the answer."*
 
 **☾ RESEARCH · COMPUTE · INVESTIGATE · DISCOVER ☽**
 
