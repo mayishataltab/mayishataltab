@@ -10,7 +10,7 @@
 
 <br>
 
-[![Focus](https://img.shields.io/badge/Focus-Computational%20Research-5B3828?style=flat-square&labelColor=21140F)](#-research-interests)
+[![Focus](https://img.shields.io/badge/Focus-Computational%20Biology%20Research-5B3828?style=flat-square&labelColor=21140F)](#-research-interests)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Deep%20Learning-B77943?style=flat-square&labelColor=21140F)](#-technical-toolkit)
 [![Goal](https://img.shields.io/badge/Goal-Research-CB9A62?style=flat-square&labelColor=21140F)](#-academic-goals)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--5069--3097-A6CE39?style=flat-square&logo=orcid&logoColor=white&labelColor=21140F)](https://orcid.org/0009-0006-5069-3097)
