@@ -12,7 +12,7 @@
 
 [![Focus](https://img.shields.io/badge/Focus-Computational%20Research-5B3828?style=flat-square&labelColor=21140F)](#-research-interests)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Deep%20Learning-B77943?style=flat-square&labelColor=21140F)](#-technical-toolkit)
-[![Goal](https://img.shields.io/badge/Goal-PhD%20Research-CB9A62?style=flat-square&labelColor=21140F)](#-academic-goals)
+[![Goal](https://img.shields.io/badge/Goal-Research-CB9A62?style=flat-square&labelColor=21140F)](#-academic-goals)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--5069--3097-A6CE39?style=flat-square&logo=orcid&logoColor=white&labelColor=21140F)](https://orcid.org/0009-0006-5069-3097)
 
 <br>
@@ -33,12 +33,12 @@ I am a Computer Science and Engineering graduate from **Daffodil International U
 
 My work applies computational methods to problems in **healthcare**, **genomics** and **environmental sound analysis**. I care most about building reproducible machine-learning workflows, evaluating models carefully, and interpreting results within the limits of the available evidence.
 
-This portfolio documents my technical work and research development as I prepare for **PhD research opportunities**.
+This portfolio documents my technical work and research development as I prepare for **Research opportunities**.
 
 | | |
 |---|---|
 | 🎓 **Background** | Computer Science and Engineering |
-| 🧠 **Core interests** | Machine learning, deep learning and data-driven modeling |
+| 🧠 **Core interests** | Machine learning, deep learning and Computational Biology |
 | 🧬 **Computational genomics** | Evidence integration and candidate-gene prioritization |
 | 🩺 **Healthcare AI** | Retinal fundus image analysis and glaucoma detection |
 | 🔊 **Audio intelligence** | Urban environmental sound classification |
