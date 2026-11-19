@@ -29,11 +29,13 @@
 
 ## 👋 About Me
 
-I am a Computer Science and Engineering graduate from **Daffodil International University, Bangladesh**, with interests in machine learning, deep learning and computational research.
+I am a Computer Science and Engineering graduate from Daffodil International University, Bangladesh, with a strong research interest in Computational Biology, Bioinformatics, and Machine Learning.
 
-My work applies computational methods to problems in **healthcare**, **genomics** and **environmental sound analysis**. I care most about building reproducible machine-learning workflows, evaluating models carefully, and interpreting results within the limits of the available evidence.
+My research interests lie at the intersection of computational sciences and biological research, focusing on applying machine learning, deep learning, and data-driven approaches to investigate complex biological problems. I am particularly interested in genetics and genomics, gene prioritization, transcriptomic analysis, and computational approaches to understanding biological systems.
 
-This portfolio documents my technical work and research development as I prepare for **Research opportunities**.
+My research experience also extends to healthcare applications and environmental sound analysis, reflecting my broader interest in developing computational solutions across interdisciplinary research domains. I value reproducible research, rigorous model evaluation, scientific interpretation, and evidence-driven investigation.
+
+This portfolio showcases my research projects, technical contributions, and ongoing development.
 
 | | |
 |---|---|
