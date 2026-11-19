@@ -29,7 +29,7 @@
 
 ## 👋 About Me
 
-I am a Computer Science and Engineering graduate from Daffodil International University, Bangladesh, with a strong research interest in Computational Biology, Bioinformatics, and Machine Learning.
+I am a Computer Science and Engineering graduate from Daffodil International University, Bangladesh, with a strong research interest in Computational Biology and Machine Learning.
 
 My research interests lie at the intersection of computational sciences and biological research, focusing on applying machine learning, deep learning, and data-driven approaches to investigate complex biological problems. I am particularly interested in genetics and genomics, gene prioritization, transcriptomic analysis, and computational approaches to understanding biological systems.
 
